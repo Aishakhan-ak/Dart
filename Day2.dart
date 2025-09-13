@@ -14,10 +14,12 @@ void main() {
   }
 
   /// Task 1 using Ternary operator
-  String result = (marks >= 60)
-      ? (age >= 19)
+  int marks2 = 60;
+  int age2 = 15;
+  String result = (marks2 >= 60)
+      ? (age2 >= 19)
             ? "Eligible for Admission"
-            : "Age is less"
+            : "Not eligible for admission bcz you are under age"
       : "Not Eligible for admission";
   print(result);
 
@@ -34,19 +36,20 @@ void main() {
     discountPercentage = 5;
 
   double discount = amount * discountPercentage / 100;
-  totalAmount = discount - amount;
+  totalAmount = amount - discount;
   print(totalAmount);
 
   // Task 2 using ternary operator
-  double discountPerc = (amount >= 5000)
+  int amount2 = 3000;
+  double discountPerc = (amount2 >= 5000)
       ? 20
-      : (amount >= 3000)
+      : (amount2 >= 3000)
       ? 10
-      : (amount >= 1000)
+      : (amount2 >= 1000)
       ? 5
       : 0;
-  double dis = amount * discountPerc / 100.0;
-  double finalAmount = dis - amount;
+  double dis = amount2 * discountPerc / 100.0;
+  double finalAmount = amount2 - dis;
   print(finalAmount);
 
   // Task 3
@@ -65,10 +68,12 @@ void main() {
   }
 
   /// Task 3 using ternary operator
-  String bankLoan = (salary >= 40000)
-      ? (jobExpe >= 2)
+  int salary2 = 50000;
+  int jobExpe2 = 1;
+  String bankLoan = (salary2 >= 40000)
+      ? (jobExpe2 >= 2)
             ? "Eligible for bank loan"
-            : "Job experience is less than 2 years"
+            : "Not eligible for bank loan bcz you'r job experience is less than 2 years"
       : "Not eligible for bank loan";
   print(bankLoan);
 }
