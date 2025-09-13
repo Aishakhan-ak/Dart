@@ -1,5 +1,5 @@
 void main() {
-  // Task 1 in nested if-else
+  // Task 1 using nested if-else
   ///University admission check
   int marks = 87;
   int age = 21;
@@ -13,7 +13,7 @@ void main() {
     print("Not eligible for admission");
   }
 
-  /// Task 1 in Ternary operator
+  /// Task 1 using Ternary operator
   String result = (marks >= 60)
       ? (age >= 19)
             ? "Eligible for Admission"
@@ -21,7 +21,7 @@ void main() {
       : "Not Eligible for admission";
   print(result);
 
-  // Task 2 in nested if-else
+  // Task 2 using if else-if
   /// Online Shopping
   int amount = 8000;
   double discountPercentage = 0;
@@ -37,7 +37,7 @@ void main() {
   totalAmount = discount - amount;
   print(totalAmount);
 
-  // Task 2 in ternary operator
+  // Task 2 using ternary operator
   double discountPerc = (amount >= 5000)
       ? 20
       : (amount >= 3000)
@@ -50,7 +50,7 @@ void main() {
   print(finalAmount);
 
   // Task 3
-  /// Bank Loan Eligibility in nested if-else
+  /// Bank Loan Eligibility using nested if-else
 
   int salary = 55000;
   int jobExpe = 3;
@@ -64,7 +64,7 @@ void main() {
     print("Not eligible for bank loan");
   }
 
-  /// Task 3 in ternary operator
+  /// Task 3 using ternary operator
   String bankLoan = (salary >= 40000)
       ? (jobExpe >= 2)
             ? "Eligible for bank loan"

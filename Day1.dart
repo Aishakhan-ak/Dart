@@ -17,7 +17,7 @@ void main() {
   print("My enrolled course is ${course + "Batch 1"}");
 
   //   Task 2
-  /// Calculator
+  /// Calculator using arithmetic operator
 
   int a = 86;
   int b = 25;
