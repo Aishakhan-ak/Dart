@@ -6,7 +6,7 @@ Otherwise → no discount.
 Show final bill */
 
 void discount(int total) {
-  // discount
+  // Apply discount
   double discountPerecentage = 0;
   if (total == 0) {
     print("You buy no item");

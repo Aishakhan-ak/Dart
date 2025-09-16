@@ -17,7 +17,7 @@ void checkAvailability(int remainingSlots) {
 }
 
 void parkCar(int enteredCars, int remainingSlots) {
-  // Enter the cars or not
+  // Cars entry are allowed or not
 
   if (enteredCars > remainingSlots) {
     print("Parking is full, you can't park cars");
