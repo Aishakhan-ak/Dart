@@ -1,4 +1,4 @@
-# dart_practice
+# Dart
 A collection of Dart practice programs and mini projects.
 
 ## Getting Started
